@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap:400px;
+    width: auto;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding-top: 30px;
+    font-size: large;
+}
+
+@media (max-width: 980px) {
+
+  .footer{
+  gap: 100px;
+}
+}
+
+@media (max-width: 580px) {
+
+  .footer{
+  gap: 50px;
+}
+}

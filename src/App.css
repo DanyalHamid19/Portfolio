@@ -1,0 +1,690 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+   background: linear-gradient(to right, #2d2c2c, #484747);
+   height: 100%;
+}
+
+.main { 
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  }
+  
+
+  .leftmain{
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     line-height: 0.4;
+  }
+
+  .leftmain span{
+    color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
+ 
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animated-text {
+  animation: blink 2s infinite; 
+  color: rgb(193, 207, 255);
+  font-weight: bolder;
+}
+
+
+.intro {
+  
+  font-family: "Gill Sans", sans-serif;  padding-top: 30px !important;
+  line-height: 1.5;
+  font-size:large;
+  padding: 50px;
+  text-align: left;
+  
+}
+
+
+.rightmain{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  text-align: center;
+  padding-left: 250px;
+}
+
+.rightmain img{
+  padding-top: 70px;
+  width: 250px;
+  height: 360px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  z-index: 2;
+  position: relative;
+  left:-187px
+}
+
+.mainlines{
+  height:550px;
+  width:2px;
+  background-color: white;
+  padding-top: 0px !important;
+  
+}
+
+
+
+
+
+/*------------- edication -------------*/
+
+
+.education{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.lefteducation{
+  width:50%;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.educationlines{
+
+  height:550px;
+  width:2px;
+  background-color: white;
+  padding-top: 0px !important;
+  
+}
+
+
+.lefteducation img {
+  padding-top: 130px;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  z-index: 2; 
+  left: -285px;
+
+
+}
+
+
+.righteducation{
+  padding-top: 50px;
+  justify-content: center;
+      margin-left: -150px;
+}
+
+.righteducation span{
+  font-weight: bold;
+}
+
+.edu{
+    color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 100px;
+  }
+
+  .inter{
+    color: white;
+    font-size: larger;
+  }
+
+
+/* -------------About us--------------  */
+
+  .about{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  }
+
+  .aboutheading{
+    color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-top: 50px;
+  }
+
+
+  .leftabout{
+    width:50%;
+  }
+  .abouttext{
+   font-family: "Gill Sans", sans-serif;
+    padding-top: 30px !important;
+    line-height: 1.5;
+    font-size: large;
+    padding: 50px;
+    text-align: left;
+    color:white;
+  }
+
+  .rightabout{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    
+  }
+
+  .aboutlines{
+  height:550px;
+  width:2px;
+  background-color: white;
+  padding-top: 0px !important;
+  position: relative;
+  left: 175px;
+
+  
+  }
+
+  .rightabout img{
+    width: 450px;
+    height: 300px;
+    margin-top: 130px;
+    position: relative;
+    z-index: 999px;
+    right:120px;
+  }
+
+
+  /*-------------- Project details--------------- */
+
+
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 79, 118);
+    padding-bottom: 50px;
+    
+  }
+  .projectHeading{
+    color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #2d2c2c, #484747);
+    
+  }
+
+
+  .projectDiscription{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+  }
+
+  .img1{
+    width:70%;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .img2{
+    width:70%;
+    height: 450px;
+    margin-right: 20px;
+    padding: 20px 0px;
+    margin-left: auto;
+  }
+
+
+
+  .proj1{
+    display: flex;
+    flex-direction: row;
+  }
+
+ .proj2{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #2d2c2c, #484747);
+
+  }
+
+
+
+.head{
+   color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.disc{
+  color:#fff;
+  text-align: left;
+  margin: 10px;
+  font-family: Gill Sans, sans-serif;
+  line-height: 1.5;
+}
+
+/* --------------skills----------------------- */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsheading {
+  color: rgb(193, 207, 255);
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.skillsbody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillbox {
+  width: calc(33.333% - 100px);
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  rgb(238, 242, 255);
+  transition: background-color 0.3s;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+
+.skillbox img {
+  width: 100px;
+  height: 100px;
+}
+
+.skillbox:hover {
+  background-color: #fff;
+}
+.skillbox p {
+  margin-top: 10px;
+  font-size: larger;
+  color: #333;
+  font-weight: bold;
+}
+
+/* -------------experience------------------- */
+.experience{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.expLeft{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 50px;
+  
+}
+
+.expHeading{
+  padding-top: 50px;
+  padding-bottom: 50px;
+      color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+
+.expDescription{
+  
+    font-family: "Gill Sans", sans-serif;
+    line-height: 1.2;
+    font-size: large;
+    /* padding: 50px; */
+    text-align: left;
+    color: white;
+}
+
+
+.expRight{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.explines{
+    height: 550px;
+    width: 2px;
+    background-color: white;
+    padding-top: 0px !important;
+    position: relative;
+    left: 220px;
+}
+
+.expRight img{
+  top:130px;
+  left: -70px;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  z-index: 999;
+
+}
+
+/*--------------- contact me --------------- */
+
+.contactme{
+ 
+    padding-top: 40px;
+    color: rgb(193, 207, 255);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+   justify-content: center;
+   text-align: center;
+}
+
+.pic {
+  
+margin-top: 80px; /* Retain your top margin if necessary */
+}
+
+.pic img {
+  border-radius: 100%;
+  border: 3px solid white;
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  margin-right: 100px;
+}
+
+
+
+
+.contactitems{
+   display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.contactitems img{
+  width:40px;
+height: 40px;
+}
+
+.contactitems p{
+     font-family: "Gill Sans", sans-serif;
+    line-height: 1.2;
+    font-size: large;
+    text-align: left;
+    color: white;
+}
+
+
+.contactlinks {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+ padding-top: 50px;
+  
+}
+
+.flexcontact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+/* For tablets and below (devices with width less than 768px) */
+@media (max-width: 970px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftmain, .rightmain {
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  .leftmain {
+    padding-top: 50px;
+  }
+
+  .rightmain {
+    padding: 20px 0;
+  }
+
+  .flexcontact{
+  display: flex;
+  flex-direction: column;
+  padding-left: 220px;
+}
+
+
+  .rightmain img {
+    position: relative;
+    top:-70px;
+    width: 200px;
+    height: 300px;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .education{
+    flex-direction: column;
+    align-items: center;
+  }
+  .righteducation{
+    margin-top: -200px;
+    padding-left: 200px;
+  }
+
+     .lefteducation img {
+        /* left: -103px;
+        bottom: 150px;
+        width: 350px;
+        height: 250px; */
+        display: none;
+    }
+  .about{
+      flex-direction: column;
+    align-items: center;
+  }
+  .abouttext{
+    padding: 0px;
+  }
+
+  .rightabout img{
+    right: 0px;
+  }
+
+
+  .skillbox{
+   padding: 10px; 
+   margin: 20px;
+  }
+
+.experience{
+  flex-direction: column;
+    align-items: center;
+}
+
+    .img1 {
+        width: 90%;
+        height: 300px;
+    }
+    .img2 {
+        width: 90%;
+        height: 300px;
+    }
+
+
+    
+
+.head{
+padding-top: 15px;
+}
+
+.expHeading{
+  padding-top: 0px;
+}
+
+.expRight img {
+  left: -25px;
+  width: 350px;
+  height: 200px;
+   top: 30px;
+}
+
+.rightabout img{
+  margin-top: 50px;
+}
+
+.proj1 {
+    display: flex;
+    flex-direction: column;
+}
+.proj2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+   
+
+  .contactlinks{
+  top: 0px;
+  left: -100px;
+  }
+
+  .mainlines {
+    display: none;
+  }
+  .aboutlines{
+    display: none;
+  }
+  .explines{
+    display: none;
+  }
+
+  .educationlines{
+    display: none;
+  }
+  
+
+
+
+}
+
+/* For smartphones (devices with width less than 480px) */
+@media (max-width: 580px) {
+
+   .skillbox{
+     width: calc(50% - 100px);
+  }
+  .leftmain {
+    font-size: large;
+  }
+
+  .leftmain span {
+    font-size: large;
+  }
+
+  .intro {
+    padding: 20px;
+    font-size: medium;
+  }
+
+  .rightmain img {
+    width: 150px;
+    height: 225px;
+  }
+
+  
+  .flexcontact{
+  padding-left: 100px;
+}
+
+
+  .rightabout img {
+        right: 0px;
+         width: 250px;
+    height: 200px;
+  
+
+    }
+  .abouttext {
+        padding-bottom: 0px;
+    }
+ 
+
+   .lefteducation img {
+       width: 300px;
+       height: 200px;
+     left: -194px;
+        padding-top: 113px;
+        padding-bottom: 10%;
+    }
+
+        .expRight img {
+        left: -25px;
+        width: 300px;
+       height: 200px;
+       
+    }
+
+        .edu {
+        padding-top: 36%;
+    }
+  
+}
