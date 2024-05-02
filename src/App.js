@@ -36,7 +36,7 @@ function App() {
           <p className="animated-text">Front-end Developer</p>
           <p className="intro">
             I specialize in creating stunning, user-friendly web experiences
-            that captivate audiences and leave a lasting impression. With a keen
+            that captivate audiences and I leave a lasting impression. With a keen
             eye for design and a passion for cutting-edge technologies, I craft
             seamless digital solutions that elevate brands and exceed
             expectations.
