@@ -19,6 +19,7 @@ import gmail from "./pictures/gmail.png";
 import linkedin from "./pictures/linkedin.png";
 import whatsapp from "./pictures/whatsapp.png";
 import github from "./pictures/github.png";
+import myClique from "./pictures/myClique.png"
 import Footer from "./components/Footer";
 
 
@@ -36,9 +37,9 @@ function App() {
           <p className="animated-text">Front-end Developer</p>
           <p className="intro">
             I specialize in creating stunning, user-friendly web experiences
-            that captivate audiences and I leave a lasting impression. With a keen
-            eye for design and a passion for cutting-edge technologies, I craft
-            seamless digital solutions that elevate brands and exceed
+            that captivate audiences and I leave a lasting impression. With a
+            keen eye for design and a passion for cutting-edge technologies, I
+            craft seamless digital solutions that elevate brands and exceed
             expectations.
           </p>
         </div>
@@ -221,6 +222,21 @@ function App() {
                 efficient
               </div>
             </div>
+          </div>
+
+          <div className="proj2">
+            <div className="description1">
+              <div className="head">My Clique</div>
+              <div className="disc">
+                MyClique offers a group of friends who want a new way to save their
+                hangouts and discover new places to visit on their next outing.
+                We believe that we grow by focusing on our similarities and what
+                we all love are hangouts! We want our app to actually encourage
+                people to be social, meet up with their cliques and meet new
+                people to expand their circle.
+              </div>
+            </div>
+            <img className="img2" src={myClique} alt="" />
           </div>
         </div>
       </div>
