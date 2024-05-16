@@ -20,6 +20,7 @@ import linkedin from "./pictures/linkedin.png";
 import whatsapp from "./pictures/whatsapp.png";
 import github from "./pictures/github.png";
 import myClique from "./pictures/myClique.png"
+import Noorsign from "./pictures/Noorsign.png"
 import Footer from "./components/Footer";
 
 
@@ -228,15 +229,32 @@ function App() {
             <div className="description1">
               <div className="head">My Clique</div>
               <div className="disc">
-                MyClique offers a group of friends who want a new way to save their
-                hangouts and discover new places to visit on their next outing.
-                We believe that we grow by focusing on our similarities and what
-                we all love are hangouts! We want our app to actually encourage
-                people to be social, meet up with their cliques and meet new
-                people to expand their circle.
+                MyClique offers a group of friends who want a new way to save
+                their hangouts and discover new places to visit on their next
+                outing. We believe that we grow by focusing on our similarities
+                and what we all love are hangouts! We want our app to actually
+                encourage people to be social, meet up with their cliques and
+                meet new people to expand their circle.
               </div>
             </div>
             <img className="img2" src={myClique} alt="" />
+          </div>
+
+          <div className="proj1">
+            <img className="img1" src={Noorsign} alt="" />
+            <div className="description1">
+              <div className="head">Noor Signs</div>
+              <div className="disc">
+                Your business deserves to be seen, and at the custom sign shop
+                NOORSIGN, we can help you with visibility and so much more. We
+                are a custom sign and visual solutions company that can handle a
+                wide variety of your business’s needs, including content
+                development, graphic design, and project management. Our visual
+                idea experts offer unmatched insight and will work closely with
+                you to understand your business and develop customized solutions
+                that convey your message
+              </div>
+            </div>
           </div>
         </div>
       </div>
