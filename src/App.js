@@ -10,7 +10,6 @@ import html from "./pictures/html.png";
 import css from "./pictures/css.png";
 import javascript from "./pictures/javascript.png";
 import bootstrap from "./pictures/bootstrap.png";
-import mysql from "./pictures/mysql.png";
 import reactt from "./pictures/reactt.png";
 import contactme from "./pictures/contactme.jpg";
 import experience from "./pictures/experience.png";
@@ -22,6 +21,7 @@ import github from "./pictures/github.png";
 import myClique from "./pictures/myClique.png"
 import Noorsign from "./pictures/Noorsign.png"
 import Footer from "./components/Footer";
+import Python from "./pictures/python.png"
 
 
 
@@ -67,13 +67,12 @@ function App() {
           <div className="edu">Education</div>
           <div className="inter">
             <div>
-              <span>Intermediate (2017-2019)</span>
+              <span>Masters (2024-Ongoing)</span>
             </div>
             <div>
-              <span>Punjab College</span>
+              <span>University of Debrecen</span>
             </div>
-            <div>Pre-Engineering (Computer Science)</div>
-            <div>86% Marks</div>
+            <div>Computer Science</div>
           </div>
           <br />
           <br />
@@ -139,8 +138,8 @@ function App() {
             <p>REACT</p>
           </div>
           <div className="skillbox">
-            <img src={mysql} alt="MySQL" />
-            <p>My SQL</p>
+            <img src={Python} alt="Python" />
+            <p>Python</p>
           </div>
           <div className="skillbox">
             <img src={bootstrap} alt="Bootstrap" />
@@ -300,7 +299,7 @@ function App() {
 
             <div className="contactitems">
               <img src={whatsapp} alt="whatsapp" />
-              <p>+36709057392</p>
+              <p>+36-709057392</p>
             </div>
 
             <div className="contactitems">
