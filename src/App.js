@@ -300,7 +300,7 @@ function App() {
 
             <div className="contactitems">
               <img src={whatsapp} alt="whatsapp" />
-              <p>+92 308 7527322</p>
+              <p>+36709057392</p>
             </div>
 
             <div className="contactitems">
