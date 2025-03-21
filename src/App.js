@@ -310,7 +310,7 @@ function App() {
               >
                 <img src={gmail} alt="gmailId" />
               </a>
-              <p>daniyalhameed19@gmail.com</p>
+              <p>hamiddanyal46@gmail.com</p>
             </div>
           </div>
         </div>
